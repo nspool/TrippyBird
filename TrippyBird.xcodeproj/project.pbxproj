@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82D88F6919DBFDEA0010EDED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D88F6819DBFDEA0010EDED /* AppDelegate.swift */; };
+		82D88F6B19DBFDEA0010EDED /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 82D88F6A19DBFDEA0010EDED /* GameScene.sks */; };
+		82D88F6D19DBFDEA0010EDED /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D88F6C19DBFDEA0010EDED /* GameScene.swift */; };
+		82D88F6F19DBFDEA0010EDED /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D88F6E19DBFDEA0010EDED /* GameViewController.swift */; };
+		82D88F7219DBFDEA0010EDED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D88F7019DBFDEA0010EDED /* Main.storyboard */; };
+		82D88F7419DBFDEA0010EDED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D88F7319DBFDEA0010EDED /* Images.xcassets */; };
+		82D88F7719DBFDEA0010EDED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D88F7519DBFDEA0010EDED /* LaunchScreen.xib */; };
+		82D88F8319DBFDEA0010EDED /* TrippyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D88F8219DBFDEA0010EDED /* TrippyBirdTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82D88F7D19DBFDEA0010EDED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D88F5B19DBFDEA0010EDED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D88F6219DBFDEA0010EDED;
+			remoteInfo = TrippyBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82D88F6319DBFDEA0010EDED /* TrippyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrippyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D88F6719DBFDEA0010EDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D88F6819DBFDEA0010EDED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82D88F6A19DBFDEA0010EDED /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		82D88F6C19DBFDEA0010EDED /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		82D88F6E19DBFDEA0010EDED /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		82D88F7119DBFDEA0010EDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82D88F7319DBFDEA0010EDED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82D88F7619DBFDEA0010EDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		82D88F7C19DBFDEA0010EDED /* TrippyBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrippyBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D88F8119DBFDEA0010EDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D88F8219DBFDEA0010EDED /* TrippyBirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrippyBirdTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D88F6019DBFDEA0010EDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D88F7919DBFDEA0010EDED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D88F5A19DBFDEA0010EDED = {
+			isa = PBXGroup;
+			children = (
+				82D88F6519DBFDEA0010EDED /* TrippyBird */,
+				82D88F7F19DBFDEA0010EDED /* TrippyBirdTests */,
+				82D88F6419DBFDEA0010EDED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D88F6419DBFDEA0010EDED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D88F6319DBFDEA0010EDED /* TrippyBird.app */,
+				82D88F7C19DBFDEA0010EDED /* TrippyBirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D88F6519DBFDEA0010EDED /* TrippyBird */ = {
+			isa = PBXGroup;
+			children = (
+				82D88F6819DBFDEA0010EDED /* AppDelegate.swift */,
+				82D88F6A19DBFDEA0010EDED /* GameScene.sks */,
+				82D88F6C19DBFDEA0010EDED /* GameScene.swift */,
+				82D88F6E19DBFDEA0010EDED /* GameViewController.swift */,
+				82D88F7019DBFDEA0010EDED /* Main.storyboard */,
+				82D88F7319DBFDEA0010EDED /* Images.xcassets */,
+				82D88F7519DBFDEA0010EDED /* LaunchScreen.xib */,
+				82D88F6619DBFDEA0010EDED /* Supporting Files */,
+			);
+			path = TrippyBird;
+			sourceTree = "<group>";
+		};
+		82D88F6619DBFDEA0010EDED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D88F6719DBFDEA0010EDED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82D88F7F19DBFDEA0010EDED /* TrippyBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				82D88F8219DBFDEA0010EDED /* TrippyBirdTests.swift */,
+				82D88F8019DBFDEA0010EDED /* Supporting Files */,
+			);
+			path = TrippyBirdTests;
+			sourceTree = "<group>";
+		};
+		82D88F8019DBFDEA0010EDED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82D88F8119DBFDEA0010EDED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D88F6219DBFDEA0010EDED /* TrippyBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D88F8619DBFDEA0010EDED /* Build configuration list for PBXNativeTarget "TrippyBird" */;
+			buildPhases = (
+				82D88F5F19DBFDEA0010EDED /* Sources */,
+				82D88F6019DBFDEA0010EDED /* Frameworks */,
+				82D88F6119DBFDEA0010EDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrippyBird;
+			productName = TrippyBird;
+			productReference = 82D88F6319DBFDEA0010EDED /* TrippyBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82D88F7B19DBFDEA0010EDED /* TrippyBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D88F8919DBFDEA0010EDED /* Build configuration list for PBXNativeTarget "TrippyBirdTests" */;
+			buildPhases = (
+				82D88F7819DBFDEA0010EDED /* Sources */,
+				82D88F7919DBFDEA0010EDED /* Frameworks */,
+				82D88F7A19DBFDEA0010EDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D88F7E19DBFDEA0010EDED /* PBXTargetDependency */,
+			);
+			name = TrippyBirdTests;
+			productName = TrippyBirdTests;
+			productReference = 82D88F7C19DBFDEA0010EDED /* TrippyBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D88F5B19DBFDEA0010EDED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = me.nspool;
+				TargetAttributes = {
+					82D88F6219DBFDEA0010EDED = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+					};
+					82D88F7B19DBFDEA0010EDED = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = BBMD5EQBE2;
+						LastSwiftMigration = 0920;
+						TestTargetID = 82D88F6219DBFDEA0010EDED;
+					};
+				};
+			};
+			buildConfigurationList = 82D88F5E19DBFDEA0010EDED /* Build configuration list for PBXProject "TrippyBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82D88F5A19DBFDEA0010EDED;
+			productRefGroup = 82D88F6419DBFDEA0010EDED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D88F6219DBFDEA0010EDED /* TrippyBird */,
+				82D88F7B19DBFDEA0010EDED /* TrippyBirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D88F6119DBFDEA0010EDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D88F7719DBFDEA0010EDED /* LaunchScreen.xib in Resources */,
+				82D88F7419DBFDEA0010EDED /* Images.xcassets in Resources */,
+				82D88F6B19DBFDEA0010EDED /* GameScene.sks in Resources */,
+				82D88F7219DBFDEA0010EDED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D88F7A19DBFDEA0010EDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D88F5F19DBFDEA0010EDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D88F6D19DBFDEA0010EDED /* GameScene.swift in Sources */,
+				82D88F6F19DBFDEA0010EDED /* GameViewController.swift in Sources */,
+				82D88F6919DBFDEA0010EDED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D88F7819DBFDEA0010EDED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D88F8319DBFDEA0010EDED /* TrippyBirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82D88F7E19DBFDEA0010EDED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D88F6219DBFDEA0010EDED /* TrippyBird */;
+			targetProxy = 82D88F7D19DBFDEA0010EDED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82D88F7019DBFDEA0010EDED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D88F7119DBFDEA0010EDED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82D88F7519DBFDEA0010EDED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D88F7619DBFDEA0010EDED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82D88F8419DBFDEA0010EDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82D88F8519DBFDEA0010EDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D88F8719DBFDEA0010EDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TrippyBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.nspool.TrippyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		82D88F8819DBFDEA0010EDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TrippyBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.nspool.TrippyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		82D88F8A19DBFDEA0010EDED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrippyBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.nspool.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrippyBird.app/TrippyBird";
+			};
+			name = Debug;
+		};
+		82D88F8B19DBFDEA0010EDED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrippyBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.nspool.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrippyBird.app/TrippyBird";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D88F5E19DBFDEA0010EDED /* Build configuration list for PBXProject "TrippyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D88F8419DBFDEA0010EDED /* Debug */,
+				82D88F8519DBFDEA0010EDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D88F8619DBFDEA0010EDED /* Build configuration list for PBXNativeTarget "TrippyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D88F8719DBFDEA0010EDED /* Debug */,
+				82D88F8819DBFDEA0010EDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D88F8919DBFDEA0010EDED /* Build configuration list for PBXNativeTarget "TrippyBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D88F8A19DBFDEA0010EDED /* Debug */,
+				82D88F8B19DBFDEA0010EDED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D88F5B19DBFDEA0010EDED /* Project object */;
+}
